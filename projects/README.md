@@ -7,6 +7,7 @@
 
 - [와글와글 · 위치 기반 실시간 현황 공유 서비스](./waglwagl.md)
 - [잎새로 · 반려식물 나눔 AI 플랫폼](./ipsaero.md)
+- [SceneCrew · 공연 현장 운영 협업 서비스 (INFRA)](./scenecrew.md)
 - [FinPick · 금융진단 및 금융상품 추천 서비스](./finpick.md)
 
 ## 프로젝트 목록
@@ -15,7 +16,7 @@
 | --- | --- | --- | --- |
 | [와글와글](./waglwagl.md) | SSAFY 공통 프로젝트 · 6인 · 팀장/AI · 우수상 | Python · SCRFD · OpenCV · RabbitMQ · Docker · Jenkins | Draft |
 | [잎새로](./ipsaero.md) | SSAFY 특화 프로젝트 · 6인 · AI 서버(서브에이전트 3종) | FastAPI · FAISS · multilingual-e5 · PyTorch · ONNX Runtime · Tool Calling | Draft |
-| SceneCrew | SSAFY 자율 프로젝트 · 6인 · INFRA · 진행 중 | Docker Compose · Nginx · PostgreSQL | 예정 |
+| [SceneCrew](./scenecrew.md) | SSAFY 자율 프로젝트 · 6인 · INFRA 단독 · 11/18 시연 | Docker Compose · Nginx · Jenkins · PostgreSQL · Prometheus/Grafana · AWS EC2/S3 | Draft |
 | [FinPick](./finpick.md) | SSAFY 관통 프로젝트 · 2인 · 풀스택/AI 추천 | Django · Vue · 금융감독원 API · OpenAI API | Draft |
 
 작성 틀: [PROJECT_TEMPLATE.md](./PROJECT_TEMPLATE.md)
