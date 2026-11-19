@@ -12,7 +12,7 @@
 | 역할 | INFRA — 업무·AI 서버 구성, CI/CD, 백업·복구, 모니터링, 보안 설정, Android 서명·배포 |
 | 주요 기술 (내 담당) | Docker Compose · Nginx · Jenkins · Bash · PostgreSQL · Prometheus · Alertmanager · Grafana · Uptime Kuma · Let's Encrypt · AWS EC2/S3/IAM · Capacitor Android 서명 |
 | 팀 전체 스택 | React · TypeScript · Capacitor · Spring Boot 4 · PostgreSQL · Redis · RabbitMQ · Neo4j · FastAPI · ONNX · FCM |
-| 성과 | 진행 중 (11/18 시연 예정) |
+| 성과 | 11/18 시연 성공 (수상 없음) |
 | 링크 | 코드 저장소는 SSAFY 내부 GitLab이라 비공개 |
 
 ---
@@ -231,7 +231,7 @@ flowchart TD
 - **해결:**
   - Android 브라우저는 로그인 전에 "앱으로 열기" 안내를 먼저 보입니다. 버튼은 Android `intent` 주소라 앱이 있으면 같은 초대가 앱에서 열리고, 없으면 APK 내려받기 페이지로 갑니다. 내려받기 주소에는 초대 토큰을 넣지 않았습니다.
   - iPhone은 앱이 없으므로, 휴대폰 브라우저에서는 앱과 같은 레이아웃을 쓰게 했습니다.
-- **결과:** e2e 테스트(Playwright) 405개 통과 후 배포했습니다. 실제 iPhone과 Android 기기 확인은 시연 전 남은 일입니다.
+- **결과:** e2e 테스트(Playwright) 405개 통과 후 배포했습니다. 실제 iPhone 기기 확인 결과는 따로 기록하지 못했습니다.
 
 ### 문제 11. 시연 직전 "AI 대응안이 계속 실패"
 
@@ -299,6 +299,7 @@ flowchart TD
 | 11.09 ~ 11.11 | 업무 서버 ↔ AI 서버 연결(계획·배정), 포팅 매뉴얼, 운영 푸시(FCM) 켜기 |
 | 11.12 ~ 11.13 | 앱 화면 정리, 공개 APK 0.7.0 배포, 초대 QR 앱 연결, 카메라 밀집도 AI 전환 |
 | 11.16 | 배포 동결. 승인받은 예외로 AI 서버 재배포, AI 대응안 실패 원인 조사 |
+| 11.18 | 시연 성공 · 프로젝트 종료 (수상 없음) |
 
 ## 9. 한계와 다음 개선
 

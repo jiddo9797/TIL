@@ -16,7 +16,7 @@
 | --- | --- | --- | --- |
 | [와글와글](./waglwagl.md) | SSAFY 공통 프로젝트 · 6인 · 팀장/AI · 우수상 | Python · SCRFD · OpenCV · RabbitMQ · Docker · Jenkins | Draft |
 | [잎새로](./ipsaero.md) | SSAFY 특화 프로젝트 · 6인 · AI 서버(서브에이전트 3종) | FastAPI · FAISS · multilingual-e5 · PyTorch · ONNX Runtime · Tool Calling | Draft |
-| [SceneCrew](./scenecrew.md) | SSAFY 자율 프로젝트 · 6인 · INFRA 단독 · 11/18 시연 | Docker Compose · Nginx · Jenkins · PostgreSQL · Prometheus/Grafana · AWS EC2/S3 | Draft |
+| [SceneCrew](./scenecrew.md) | SSAFY 자율 프로젝트 · 6인 · INFRA 단독 · 11/18 시연 성공 | Docker Compose · Nginx · Jenkins · PostgreSQL · Prometheus/Grafana · AWS EC2/S3 | Draft |
 | [FinPick](./finpick.md) | SSAFY 관통 프로젝트 · 2인 · 풀스택/AI 추천 | Django · Vue · 금융감독원 API · OpenAI API | Draft |
 
 작성 틀: [PROJECT_TEMPLATE.md](./PROJECT_TEMPLATE.md)
